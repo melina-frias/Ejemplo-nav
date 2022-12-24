@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --colorNav: black
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    
+}
+
+.contenedor{
+    display: flex;
+    width: 85%;
+    height: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.buscador{
+    position: relative;
+    height: 40px;
+    width: 280px;
+}
+
+.buscador input{
+    width: 280px;
+    height: 40px;
+    padding-left: 40px;
+    font-size: 14px;
+    background-color: rgb(213, 213, 213);
+    border:1px solid rgb(213, 213, 213); ;
+    border-radius: 6px;
+   color: rgb(106, 104, 104);
+}
+
+.icono-buscar{
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 60%;
+    left: 2px;
+    transform: translateY(-50%);
+    padding: 0 15px;
+    font-size: 12px;
+    color: rgb(106, 104, 104);
+    
+
+}
+
+
+a{
+    color: var(--colorNav);
+    text-decoration: none;
+    font-family:'Hind Vadodara', sans-serif;
+    margin: 0 18px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.iconos{
+    font-size: 16px;
+    color: black;
+    display: flex;
+    margin-left: 95px;
+
+}
+
+.chat,.campana{
+    margin: 0 10px;
+    font-weight: 400;
+}
+
+.contenedor-campana{
+    position: relative;
+    
+    
+}
+
+span{
+    color: red;
+    background-color: red;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+    position: absolute;
+    top:-12px;
+    right: 10px;
+}
+
+.img-perfil{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
