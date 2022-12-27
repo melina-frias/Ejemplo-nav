@@ -28,6 +28,10 @@ header{
     justify-content: space-around;
     background-color: white;
 }
+.logo{
+    width: 150px;
+    height: 50px;
+}
 
 .buscador{
     position: relative;
@@ -40,10 +44,11 @@ header{
     height: 40px;
     padding-left: 40px;
     font-size: 14px;
-    background-color: rgb(213, 213, 213);
-    border:1px solid rgb(213, 213, 213); ;
+    background-color: rgba(238, 237, 237, 0.708);
+    border:1px solid rgba(238, 237, 237, 0.708);
     border-radius: 6px;
-   color: rgb(106, 104, 104);
+   color: rgb(137, 134, 134);
+   outline: none;
 }
 
 .icono-buscar{
@@ -71,6 +76,9 @@ a{
     font-weight: 550;
 }
 
+a:hover{
+    border-bottom: 2px solid rgb(127, 76, 127);
+}
 .iconos{
     font-size: 16px;
     color: black;
@@ -79,15 +87,27 @@ a{
 
 }
 
+
+
 .chat,.campana{
     margin: 0 10px;
     font-weight: 400;
+    
+}
+
+.chat:hover{
+    transform: translateY(-5px);
 }
 
 .contenedor-campana{
     position: relative;
     
     
+}
+
+.contenedor-campana:hover{
+    transform: translateY(-5px);
+
 }
 
 span{
@@ -108,4 +128,9 @@ span{
     border-radius: 50%;
     object-fit: cover;
     
+    
+}
+
+.img-perfil:hover {
+    box-shadow: 0 0  2px 2px rgba(0, 0, 0, 0.1);
 }
