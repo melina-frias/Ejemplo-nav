@@ -134,3 +134,36 @@ span{
 .img-perfil:hover {
     box-shadow: 0 0  2px 2px rgba(0, 0, 0, 0.1);
 }
+
+.hamburguesa{
+    font-size: 30px;
+    display: none;
+}
+
+@media(max-width:1200px){
+    .img-perfil, .iconos{
+        display: none;
+    }
+
+    .hamburguesa{
+        display: block;
+    }
+
+}
+
+@media(max-width:975px){
+    nav{
+        display: none;
+    }
+}
+
+@media(max-width:588px){
+    .hamburguesa{
+        padding-left: 8px;
+    }
+}
+@media(max-width:500px){
+    .buscador{
+        display: none;
+    }
+}
